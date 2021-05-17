@@ -5,4 +5,7 @@ Tc – температура по Цельсию.
 */
 'use strict'
 
-console.log('Hello world');
+var Tc = 35;
+var Tf = (9 / 5) * Tc + 32;
+
+console.log(Tf);
