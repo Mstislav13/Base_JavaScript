@@ -1,0 +1,51 @@
+body{
+	height: 1000px;
+}
+#cart{
+	width: 1000px;
+	margin: 0 auto;
+}
+.item{
+	width: 234px;
+	height: 320px;
+	border: solid 1px black;
+    text-align: center;
+    padding-top: 10px;
+}
+.item img{
+	width: 150px;
+}
+#cart img{
+	width: 60px;
+	height: 60px;
+}
+#cart div{
+	display: flex;
+	align-items: center;
+	border-bottom: solid 1px black;
+}
+#cart button {
+	height: 1.5em;
+}
+
+.catalog{
+	margin: 0 auto;
+	width: 710px;
+	min-height: 100%;
+}
+.catalog div{
+	float:left;
+}
+.info {
+    width: 1000px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.input-adress {
+    width: 300px;
+    height: 45px;
+}
+.input-comment {
+    width: 300px;
+    height: 75px;
+}
